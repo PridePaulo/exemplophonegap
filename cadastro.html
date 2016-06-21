@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"><!--pega tota a jenela e um zoom de 100%-->
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="listar()">
+	<p class="texto">Cadastro de Contatos!</p>
+	<form name="formCadastro">
+		<label>Nome:</label>
+		<input type="text" id="nome" name="nome" placeholder="Digite o nome"/>
+		<br>
+		<label>E-mail:</label>
+		<input type="text" id="email" name="email" placeholder="Digite o e-mail" />
+		<br>
+		<label>Telefone:</label>
+		<input type="text" id="telefone" name="telefone" placeholder="Digite o telefone" />
+		<br>
+		<input type="button" value="Cadastrar" onclick="cadastrar()" />
+	</form>
+	<h1>Contatos Cadastrados</h1>
+	<div id="resultado">
+
+	</div>
+</body>
+</html>
