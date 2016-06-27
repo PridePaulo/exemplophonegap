@@ -1,9 +1,13 @@
-<?xml version="1.0" enconding="UTF-8"?>
-<widget xmls="http://www.w3.org/ns/widgets" xmlns:gap:"http//phonegap.com/ns/1.0" id="exemplo1" version="1.0.0">
-        <name>Exemplo 1</name>
-        <description>
-            Primeira app
-        </description>
-        <icon src="icone.png"/>
-            <preference name="android-minSdkVersion" value="9"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="exemplo1" version="1.0.0">
+	<name>
+		Exemplo 1
+	</name>
+	<description>
+		Primeira app
+	</description>
+
+	<icon src="icone.png" />
+	<!--<preference name="android-minSdkVersion" value="9" />-->
+	<plugin name="cordova-plugin-sqlite-2" />
 </widget>
